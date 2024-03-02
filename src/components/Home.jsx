@@ -15,7 +15,7 @@ const Home = () => {
             Hello! I'm Ebenezer Irene and I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            welcome to my corner of the web! I'm delighted to have you here and
+            Welcome to my corner of the web! I'm delighted to have you here and
             I'm thrilled to share my journey with you. Join me as we explore the
             fascinating world of full-stack development, from frontend marvels
             to backend wonders. Dive into my projects, discover my experiences,
