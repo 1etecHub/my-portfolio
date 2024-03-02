@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import HeroImage from "../assets/heroImage.png";
+import Ebenezer from "../assets/Ebenezer.jpg";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={HeroImage}
+            src={Ebenezer}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
