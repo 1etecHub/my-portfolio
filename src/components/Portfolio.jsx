@@ -5,31 +5,45 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import etechGpt3 from "../assets/portfolio/etechGpt3.png";
+import etechRestaurant from "../assets/portfolio/etechRestaurant.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: etechRestaurant,
+      demo: "https://1etechub.github.io/gpt-3",
+      code: "https://github.com/1etecHub/gpt-3",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: etechGpt3,
+      demo: "https://1etechub.github.io/gpt-3",
+      code: "https://github.com/1etecHub/gpt-3",
     },
     {
       id: 3,
-      src: navbar,
+      src: arrayDestruct,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: reactParallax,
     },
     {
       id: 5,
-      src: installNode,
+      src: navbar,
     },
     {
       id: 6,
+      src: reactSmooth,
+    },
+    {
+      id: 7,
+      src: installNode,
+    },
+    {
+      id: 8,
       src: reactWeather,
     },
   ];
@@ -48,7 +62,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className=" shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,12 +70,22 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center text-white rounded-md"
+                >
                   Demo
-                </button>
-                <button className="px-6 py-3 w-1/2 m-4 duration-200 hover:scale-105">
+                </a>
+                <a
+                  href={code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 w-1/2 m-4 duration-200 hover:scale-105 text-center text-white rounded-md"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
