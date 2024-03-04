@@ -14,7 +14,7 @@ const Portfolio = () => {
       id: 1,
       src: etechRestaurant,
       demo: "https://1etechub.github.io/gpt-3",
-      code: "https://github.com/1etecHub/gpt-3",
+      code: "https://github.com/1etecHub/etech-restaurant",
     },
     {
       id: 2,
