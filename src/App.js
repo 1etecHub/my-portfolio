@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="">
+    <div className="bg-gradient-to-b from-gray-800 to-black">
       <Navbar />
       <Home />
       <About />
