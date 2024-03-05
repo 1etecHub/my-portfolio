@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.433d2878.css",
-    "main.js": "/my-portfolio/static/js/main.0a20effb.js",
+    "main.css": "/my-portfolio/static/css/main.fcc09bec.css",
+    "main.js": "/my-portfolio/static/js/main.329735b7.js",
     "static/media/etechRestaurant.png": "/my-portfolio/static/media/etechRestaurant.264f133b64abb78601c1.png",
     "static/media/etechGpt3.png": "/my-portfolio/static/media/etechGpt3.c3398c040f42cfc08290.png",
     "static/media/reactParallax.jpg": "/my-portfolio/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
@@ -24,11 +24,11 @@
     "static/media/css.png": "/my-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio/index.html",
-    "main.433d2878.css.map": "/my-portfolio/static/css/main.433d2878.css.map",
-    "main.0a20effb.js.map": "/my-portfolio/static/js/main.0a20effb.js.map"
+    "main.fcc09bec.css.map": "/my-portfolio/static/css/main.fcc09bec.css.map",
+    "main.329735b7.js.map": "/my-portfolio/static/js/main.329735b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.433d2878.css",
-    "static/js/main.0a20effb.js"
+    "static/css/main.fcc09bec.css",
+    "static/js/main.329735b7.js"
   ]
 }
