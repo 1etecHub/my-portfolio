@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Ebenezer from "../assets/portfolio1.jpg";
+import Ebenezer from "../assets/ebe.jpg";
 import { Link } from "react-scroll";
 
 const Home = () => {
