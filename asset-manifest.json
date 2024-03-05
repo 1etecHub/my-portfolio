@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.fcc09bec.css",
-    "main.js": "/my-portfolio/static/js/main.329735b7.js",
+    "main.js": "/my-portfolio/static/js/main.c2da1cf4.js",
+    "static/media/ebe.jpg": "/my-portfolio/static/media/ebe.f8885bc9f99f79fc5255.jpg",
     "static/media/etechRestaurant.png": "/my-portfolio/static/media/etechRestaurant.264f133b64abb78601c1.png",
     "static/media/etechGpt3.png": "/my-portfolio/static/media/etechGpt3.c3398c040f42cfc08290.png",
     "static/media/reactParallax.jpg": "/my-portfolio/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
@@ -14,7 +15,6 @@
     "static/media/navbar.jpg": "/my-portfolio/static/media/navbar.7ce4ddd4bd6a2fa48cd5.jpg",
     "static/media/installNode.jpg": "/my-portfolio/static/media/installNode.16b2cb6d162eaa8d6fb5.jpg",
     "static/media/mysql.jpg": "/my-portfolio/static/media/mysql.c4e851a0593784ac03b8.jpg",
-    "static/media/portfolio1.jpg": "/my-portfolio/static/media/portfolio1.7af2ad5739b1eb09ea68.jpg",
     "static/media/springboot.jpg": "/my-portfolio/static/media/springboot.810f0da507192f690543.jpg",
     "static/media/react.png": "/my-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/nextjs.png": "/my-portfolio/static/media/nextjs.48ddc8121a0fcb543d64.png",
@@ -25,10 +25,10 @@
     "static/media/javascript.png": "/my-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio/index.html",
     "main.fcc09bec.css.map": "/my-portfolio/static/css/main.fcc09bec.css.map",
-    "main.329735b7.js.map": "/my-portfolio/static/js/main.329735b7.js.map"
+    "main.c2da1cf4.js.map": "/my-portfolio/static/js/main.c2da1cf4.js.map"
   },
   "entrypoints": [
     "static/css/main.fcc09bec.css",
-    "static/js/main.329735b7.js"
+    "static/js/main.c2da1cf4.js"
   ]
 }
