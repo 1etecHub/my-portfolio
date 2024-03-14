@@ -1,5 +1,5 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import reactCrud from "../assets/portfolio/reactCrud.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -24,7 +24,9 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: arrayDestruct,
+      src: reactCrud,
+      demo: "https://1etechub.github.io/react-crud",
+      code: "https://github.com/1etecHub/react-crud"
     },
     {
       id: 4,
@@ -33,6 +35,8 @@ const Portfolio = () => {
     {
       id: 5,
       src: navbar,
+      demo: "https://1etechub.github.io/responsive-navbar/",
+      code: "https://github.com/1etechub/responsive-navbar"
     },
     {
       id: 6,
