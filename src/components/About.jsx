@@ -4,15 +4,15 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black pb-40 text-white"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black pb-40 text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+        <div className="pb-8 mt-60 mb-30 sm:mt-0 sm:mb-0">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl">
         I'm Ebenezer, a passionate full-stack developer with a love for crafting innovative solutions and bringing ideas to life. I've honed my skills in both frontend and backend development, mastering technologies like React, Tailwind, GraphQL, Java SpringBoot and MongoDB along with other notable technologies. Whether it's building responsive user interfaces or architecting robust backend systems, I thrive on the challenges of software development and constantly seek opportunities to expand my knowledge
         </p>
 

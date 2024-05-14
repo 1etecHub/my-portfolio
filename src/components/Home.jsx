@@ -1,16 +1,16 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Ebenezer from "../assets/ebe.jpg";
+import Ebenezer from "../assets/Ebaby.jpg";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="w-full bg-gradient-to-b from-black via-black p-40 to-gray-800"
+      className="w-full bg-gradient-to-b from-black via-black p-8 md:p-40 to-gray-800 " // Decreased padding on smaller screens
     >
-      <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
-        <div className="flex flex-col justify-center h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4 mt-20 mb-30 sm:mt-0 sm:mb-0">
+        <div className="flex flex-col justify-center h-full md:w-1/2"> {/* Set width for mobile */}
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             Hello! I'm Ebenezer Irene and I'm a Full Stack Developer
           </h2>
@@ -38,11 +38,11 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="flex justify-center md:w-1/2"> {/* Set width for mobile */}
           <img
             src={Ebenezer}
             alt="my profile"
-            className="rounded-2xl mx-auto md:w-full"
+            className="rounded-2xl mx-auto md:w-full max-w-xs" // Adjusted image width for mobile
           />
         </div>
       </div>
